@@ -1,0 +1,9 @@
+spring:
+   data:
+      elasticsearch:
+         cluster-nodes: localhost:9300
+         properties:
+            http:
+               enabled: false
+            node:
+               local: false
